@@ -1,0 +1,230 @@
+{
+  "calendar": "Calendar",
+  "create-reservation": "Create Reservation",
+  "my-reservations": "My reservations",
+  "active-reservations": "Active reservations",
+  "login": "Login",
+  "logout": "Logut",
+  "signup": "Signup",
+  "facility-add-page": {
+    "header": "Add Facility"
+  },
+  "button": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "save-changes": "Save changes",
+    "cancel-changes": "Cancel changes",
+    "add": {
+      "facility": "Add Facility"
+    },
+    "edit": "Edit",
+    "delete": "Delete",
+    "change-role": "Change role",
+    "login": "Login",
+    "reserv": "Create reservation",
+    "signup": "Signup",
+    "previous": "Previous",
+    "next": "Next",
+    "add-room": "Add room",
+    "cancel-res": "Cancel reservation",
+    "addattendee": "Add attendee"
+  },
+  "facility-page": {
+    "header": "Facility page"
+  },
+  "error": {
+    "somethingwentwrong": "Something went wrong =(",
+    "tryagainlater": "Something went wrong. Try again later",
+    "notfound": {
+      "facilities": "No facilities found!",
+      "users": "No users found",
+      "reservations": "No reservations found",
+      "availabletimes": "No free times available",
+      "opentimes": "Facility is closed on that day",
+      "active-instances": "Currently ongoing reservations"
+    },
+    "required": {
+      "email": "Email is required",
+      "password": "Password is required",
+      "firstname": "Firstname is required",
+      "facilityname": "Name is required",
+      "atleastonetime": "Atleast one time is required",
+      "title": "Title is required",
+      "startdate": "Start date is required",
+      "enddate": "End date is required",
+      "facilityaddress": "Facility address is required",
+      "facilityschedules": "Atleast one facility open time are required",
+      "roomname": "Room name is required",
+      "atleastoneAttendeevalue": "Atleast name or user id is reqired",
+      "atleastAttendeename": "Atleast attendee name is required"
+    },
+    "invalid": {
+      "email": "Invalid email format",
+      "endbeforestartdate": "End date needs to be after start date",
+      "title": "Title is required",
+      "startdate": "Start date is required",
+      "atleastonetime": "Atleast one time needs to be selected",
+      "enddate": "End date is required"
+    },
+    "login": {
+      "failed": "Login failed"
+    },
+    "signup": {
+      "failed": "Signup failed"
+    }
+  },
+  "facilities": "Facilites",
+  "facility": {
+    "id": "ID",
+    "name": "Name",
+    "address": "Address",
+    "active": "Active"
+  },
+  "actions": "Actions",
+  "user-page": {
+    "header": "Edit user details"
+  },
+  "user": {
+    "id": "ID",
+    "firstname": "Firstname",
+    "lastname": "Lastname",
+    "email": "Email",
+    "phonenumber": "Phone number",
+    "name": "Name",
+    "phone": "Phone number",
+    "roles": "Roles",
+    "form": {
+      "email": "Email",
+      "password": "Password",
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "phone": "Phone number"
+    }
+  },
+  "users": "Users",
+  "calendar-page": {
+    "select-facility": "Select facility to see reservations"
+  },
+  "day": "Day",
+  "week": "Week",
+  "reservations": "Reservations",
+  "room": "Room",
+  "login-page": {
+    "header": "Login"
+  },
+  "page-not-found": "Page not found",
+  "page-doesnot-exist": "The page doesn't exist or is not found",
+  "go-home": "Home",
+  "go-back": "Back",
+  "no-reservations": "No reservations",
+  "profile": "Profile",
+  "myprofile": "My profile",
+  "res": {
+    "page": {
+      "header": "Reservation details"
+    },
+    "form": {
+      "title": "Title",
+      "facility": "Facility",
+      "room": "Room",
+      "startdate": "Start date",
+      "enddate": "End date",
+      "weekday": "Week day",
+      "availableslots": "Available times",
+      "type": "Reservation type",
+      "id": "ID"
+    },
+    "type": {
+      "singleday": "Single day",
+      "weekly": "Weekly",
+      "multy": "Multiple day"
+    },
+    "details": {
+      "header": "Reservation Details",
+      "gen-info": "General informations",
+      "user": "User",
+      "settings": "Settings",
+      "status": "Status",
+      "id": "ID",
+      "title": "Title",
+      "room": "Room"
+    },
+    "status": {
+      "requested": "REQUESTED",
+      "confirmed": "CONFIRMED",
+      "cancelled": "CANCELLED"
+    }
+  },
+  "signup-page": {
+    "header": "Signup"
+  },
+  "facility-details": {
+    "header": "Facility details",
+    "name": "Name",
+    "address": "Address",
+    "active": "Active"
+  },
+  "opening-hours": {
+    "header": "acility visiting hours",
+    "start": "Open time",
+    "close": "Close time",
+    "days": {
+      "SUNDAY": "Sunday",
+      "MONDAY": "Monday",
+      "TUESDAY": "Tuesday",
+      "WEDNESDAY": "Wednesday",
+      "THURSDAY": "Thursday",
+      "FRIDAY": "Friday",
+      "SATURDAY": "Saturday"
+    }
+  },
+  "room-details": {
+    "header": "Room details",
+    "no-rooms-yet": "No rooms created yet",
+    "name": "Room name",
+    "sport-type": "Sports activity type",
+    "price": "Price",
+    "active": "Active"
+  },
+  "actice-reservations": "active reservations",
+  "pending-reservations": "pending reservations",
+  "success": {
+    "reservation": {
+      "updated": "Reservation updated",
+      "deleted": "Reservation deleted",
+      "created": "Reservation created"
+    },
+    "facility": {
+      "created": "Facility created",
+      "edited": "Facility updated",
+      "deleted": "Facility deleted"
+    },
+    "user": {
+      "updated": "User updated",
+      "created": "User created"
+    },
+    "users": {
+      "deleted": "User deleted",
+      "role-changed": "User role changed"
+    },
+    "profile": {
+      "updated": "Profile updated"
+    }
+  },
+  "attendee": {
+    "form": {
+      "selectfacility": "Select facility",
+      "addpersonto": "Add person to selected reservation",
+      "selectinstance": "Select ongoinf reservation",
+      "add": {
+        "name": "Add name",
+        "email": "Add email"
+      },
+      "searchuser": "Search user"
+    },
+    "instances": {
+      "noactive": "No ongoing reservation happing right now"
+    },
+    "selectactivereservation": "Selecte ongoing reservation"
+  }
+}

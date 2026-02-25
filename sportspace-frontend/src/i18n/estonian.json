@@ -1,0 +1,239 @@
+{
+  "calendar": "Kalender",
+  "reservations": "Reserveeringud",
+  "create-reservation": "Koosta reserveering",
+  "my-reservations": "Minu reserveeringud",
+  "active-reservations": "Hetkel toimuvad",
+  "users": "Kasutajad",
+  "facilities": "Hooned",
+  "profile": "Profiil",
+  "logout": "Logi välja",
+  "login": "Sisene",
+  "signup": "Registreeru",
+  "page-not-found": "LEHEKÜLGE EI LEITUD",
+  "page-doesnot-exist": "Lehekülge ei leitud või ei eksisteeri.",
+  "go-home": "Avalehele",
+  "go-back": "Mine tagasi",
+  "login-page": {
+    "header": "Logi sisse",
+    "submit": "Sisene"
+  },
+  "form": {
+    "email": "Email",
+    "password": "Parool",
+    "firstname": "Eesnimi",
+    "lastname": "Perekonnanimi",
+    "phone": "Telefoni number"
+  },
+  "error": {
+    "fetch": {
+      "invalidcredentials": "Invalid credentials",
+      "roomisclosedonthisday": "Room is closed on selected day"
+    },
+    "somethingwentwrong": "Ühenduse viga =(",
+    "tryagainlater": "Midagi läks valesti. Proovi hiljem uuesti",
+    "required": {
+      "email": "Email on kohustuslik!",
+      "password": "Parool on kohustuslik!",
+      "firstname": "Eesnimi on kohustuslik!",
+      "title": "Pealkiri on kohustuslik",
+      "startdate": "Algus kuupäev on kohustuslik",
+      "atleastonetime": "Peab olema valitud vähemalt üks aeg",
+      "enddate": "Lõpp kuupäev on kohustuslik",
+      "facilityname": "Hoone nimi on kohustuslik",
+      "facilityaddress": "Aadress on kohustuslik",
+      "facilityschedules": "Vähemalt üks avatud päev on kohustuslik",
+      "roomname": "Ruumi nimi on kohustuslik",
+      "atleastoneAttendeevalue": "Peab olema, kas oasleja nimi või valima kasutaja nimekirjast",
+      "atleastAttendeename": "Osaleja nimi on kohustulik"
+    },
+    "invalid": {
+      "email": "Email ei ole õige vorminguga!",
+      "endbeforestartdate": "Lõpp kuupäev peab olema pärast algus kuupäeva"
+    },
+    "notfound": {
+      "reservations": "Reserveeringuid ei leitud",
+      "facilities": "Hooneid ei leitud",
+      "users": "Kasutajad ei leitud",
+      "availabletimes": "Vabad ajad puuduvad",
+      "opentimes": "Hoone on suletud sellel päeval",
+      "active-instances": "Hetkel aktiivseid reserveeriguid ei toimu"
+    },
+    "login": {
+      "failed": "Sisselogimi ebaõnnesuts"
+    },
+    "signup": {
+      "failed": "Kasutaja loomine ebaõnnestus"
+    }
+  },
+  "signup-page": {
+    "header": "Loo kasutaja",
+    "submit": "Registreeri"
+  },
+  "no-reservations": "Reserveeringud puuduvad",
+  "calendar-page": {
+    "select-facility": "Palun valige hoone et kuvada reserveeringud"
+  },
+  "day": "Päev",
+  "week": "Nädal",
+  "room": "Ruum",
+  "button": {
+    "cancel": "Tühista",
+    "save": "Salvesta",
+    "save-changes": "Salvesta muudatused",
+    "cancel-changes": "Tühist muudatused",
+    "add": {
+      "facility": "Lisa hoone"
+    },
+    "edit": "Muuda",
+    "delete": "Kustuta",
+    "change-role": "Muuda rolli",
+    "login": "Logi sisse",
+    "reserv": "Loo reserveering",
+    "signup": "Registreeri",
+    "previous": "Eelmine",
+    "next": "Järgmine",
+    "add-room": "Lisa ruum",
+    "cancel-res": "Tühista reserveering",
+    "addattendee": "Lisa oasleja"
+  },
+  "facility-details": {
+    "header": "Hoone detailid",
+    "name": "Nimi",
+    "address": "Aadress",
+    "active": "Aktiivne"
+  },
+  "opening-hours": {
+    "header": "Lahtiolekuajad",
+    "start": "Avamiseaeg",
+    "close": "Sulgemisaeg",
+    "days": {
+      "SUNDAY": "Pühapäev",
+      "MONDAY": "Esmaspäev",
+      "TUESDAY": "Teisipäev",
+      "WEDNESDAY": "Kolmapäev",
+      "THURSDAY": "Neljapäev",
+      "FRIDAY": "Reede",
+      "SATURDAY": "Laupäev"
+    }
+  },
+  "room-details": {
+    "header": "Ruumi detailid",
+    "no-rooms-yet": "Veel ei ole lisatud ühtegi ruumi",
+    "name": "Nimi",
+    "sport-type": "Spordiliik",
+    "price": "Hind",
+    "active": "Aktiivne"
+  },
+  "actice-reservations": "Aktiivsed reserveeringud",
+  "res": {
+    "details": {
+      "header": "Reserveeringu detailid",
+      "gen-info": "Üldine info",
+      "user": "Reserveeringu tegija",
+      "settings": "Seaded",
+      "status": "Staatus",
+      "id": "ID",
+      "title": "Pealkiri",
+      "room": "Ruum"
+    },
+    "form": {
+      "id": "ID",
+      "title": "Pealkiri",
+      "room": "Ruum",
+      "type": "Reserveeringu tüüp",
+      "facility": "Hoone",
+      "enddate": "Lõpp kuupäev",
+      "weekday": "Nädalapäev",
+      "startdate": "Algus kuupäev",
+      "availableslots": "Saadaolevad ajad"
+    },
+    "status": {
+      "requested": "Taotletud",
+      "confirmed": "Kinnitatud",
+      "cancelled": "Tühistatud"
+    },
+    "page": {
+      "header": "Reserveering koostamine"
+    },
+    "type": {
+      "singleday": "Üks päev",
+      "weekly": "Iga nädalane",
+      "multy": "Mitme päevane"
+    }
+  },
+  "pending-reservations": "ootel reserveeringut",
+  "actions": "Tegevused",
+  "facility-add-page": {
+    "header": "Lisa uus hoone"
+  },
+  "facility-page": {
+    "header": "Hoone detailid"
+  },
+  "facility": {
+    "id": "iD",
+    "name": "Nimi",
+    "address": "Aadress",
+    "active": "Aktiivne"
+  },
+  "user-page": {
+    "header": "Kasutaja detailid"
+  },
+  "user": {
+    "id": "ID",
+    "firstname": "Eesnimi",
+    "lastname": "Perekonnanimi",
+    "email": "Email",
+    "phonenumber": "Telefoninumber",
+    "name": "Nimi",
+    "phone": "Telefoninumber",
+    "form": {
+      "email": "Email",
+      "password": "Parool",
+      "firstname": "Eesnimi",
+      "lastname": "Perekonnanimi",
+      "phone": "Telefoninumber"
+    },
+    "roles": "Rollid"
+  },
+  "myprofile": "Minu profiil",
+  "success": {
+    "reservation": {
+      "updated": "Reserveering uuendatud",
+      "deleted": "Reserveering kustudatud",
+      "created": "Reserveering loodud"
+    },
+    "facility": {
+      "created": "Hoome lisatud",
+      "edited": "Hoone uuendatud",
+      "deleted": "Hoone kustutadud"
+    },
+    "user": {
+      "updated": "Kasutaja uuendatud",
+      "created": "Kasutaja loodud"
+    },
+    "users": {
+      "deleted": "Kasutaja kustutatud",
+      "role-changed": "Kasutaja roll muudetud"
+    },
+    "profile": {
+      "updated": "Profiil uuendatud"
+    }
+  },
+  "attendee": {
+    "form": {
+      "selectfacility": "Vali hoone",
+      "addpersonto": "Lisa osaleja reserveeringule",
+      "selectinstance": "Vali reserveering",
+      "add": {
+        "name": "Osaleja nimi",
+        "email": "Osaleja email"
+      },
+      "searchuser": "Otsi kasutajat"
+    },
+    "instances": {
+      "noactive": "Hetkel toimuvaid reserveeringuid ei leitud"
+    },
+    "selectactivereservation": "Valige resrveering"
+  }
+}

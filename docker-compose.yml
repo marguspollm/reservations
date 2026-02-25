@@ -1,0 +1,37 @@
+services:
+  db:
+    image: postgres:18
+    container_name: db
+    restart: always
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5432:5432"
+
+  backend:
+    build: ./sportspace
+    container_name: backend
+    depends_on:
+      - db
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build:
+      context: ./sportspace-frontend
+      args:
+        VITE_API_HOST: ${VITE_API_HOST}
+    container_name: frontend
+    depends_on:
+      - backend
+    ports:
+      - "5173:5173"
+
+volumes:
+  postgres_data:
