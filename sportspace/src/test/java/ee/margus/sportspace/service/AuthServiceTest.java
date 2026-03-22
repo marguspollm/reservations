@@ -11,6 +11,7 @@ import ee.margus.sportspace.mapper.UserMapper;
 import ee.margus.sportspace.model.AuthToken;
 import ee.margus.sportspace.model.UserClaims;
 import ee.margus.sportspace.repository.AuthRepository;
+import ee.margus.sportspace.repository.UserRepository;
 import ee.margus.sportspace.security.JWTService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -44,6 +45,8 @@ class AuthServiceTest {
     private JWTService jwtService;
     @Mock
     private UserService userService;
+    @Mock
+    private UserRepository userRepository;
 
     @Test
     void givenValidCredentials_whenLogin_thenLoginSuccessful() {

@@ -9,6 +9,7 @@ import ee.margus.sportspace.exception.NotFoundException;
 import ee.margus.sportspace.exception.ValidationException;
 import ee.margus.sportspace.mapper.AttendeeMapper;
 import ee.margus.sportspace.mapper.ReservationInstanceMapper;
+import ee.margus.sportspace.repository.AttendeeRepository;
 import ee.margus.sportspace.repository.ReservationInstanceRepository;
 import ee.margus.sportspace.repository.UserRepository;
 import org.junit.jupiter.api.BeforeEach;
@@ -40,6 +41,8 @@ class AttendeeServiceTest {
     private ReservationInstanceRepository instanceRepository;
     @Mock
     private UserRepository userRepository;
+    @Mock
+    private AttendeeRepository attendeeRepository;
 
     private ReservationInstance instance;
     private User user;
@@ -118,7 +121,7 @@ class AttendeeServiceTest {
         AttendeeDTO dto = new AttendeeDTO(null, null, null, 1L);
 
         when(instanceRepository.findById(1L)).thenReturn(Optional.of(instance));
-        when(userRepository.findById(2L)).thenReturn(Optional.empty());
+        when(userRepository.findById(1L)).thenReturn(Optional.empty());
 
         assertThrows(NotFoundException.class, () -> service.addAttendee(1L, dto));
     }
